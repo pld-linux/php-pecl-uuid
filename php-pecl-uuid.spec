@@ -1,7 +1,7 @@
 %define		_modname	uuid
 %define		_status		beta
 Summary:	%{_modname} - UUID support functions
-Summary(pl):	%{_modname} - wsparcie dla UUID
+Summary(pl):	%{_modname} - funkcje obs³uguj±ce UUID
 Name:		php-pecl-%{_modname}
 Version:	0.9
 Release:	1
@@ -29,8 +29,8 @@ ext2fs tools.
 This extension has in PEAR status: %{_status}.
 
 %description -l pl
-To rozszerzenie dostarcza funkcji do generowania i analizy
-uniwersalnie unikalnych identifkatorów (ang. UUIDs). Rozszerznie to
+To rozszerzenie dostarcza funkcje do generowania i analizy
+uniwersalnie unikalnych identyfikatorów (ang. UUIDs). Rozszerznie to
 wymaga zewnêtrznej biblioteki libuuid, dostêpnej w wiêkszo¶ci
 dystrybucji, której ¼ród³o jest dostarczane wraz z narzêdziami ext2fs.
 
