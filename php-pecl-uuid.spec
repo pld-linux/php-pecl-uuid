@@ -27,7 +27,7 @@ unique identifiers (UUIDs). It depends on external libuuid. This
 library is available on most linux systems, its source is bundled with
 ext2fs tools.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 To rozszerzenie dostarcza funkcje do generowania i analizy
@@ -35,7 +35,7 @@ uniwersalnie unikalnych identyfikatorów (ang. UUIDs). Rozszerznie to
 wymaga zewnêtrznej biblioteki libuuid, dostêpnej w wiêkszo¶ci
 dystrybucji, której ¼ród³o jest dostarczane wraz z narzêdziami ext2fs.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
