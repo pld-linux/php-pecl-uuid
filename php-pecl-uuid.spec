@@ -10,8 +10,8 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	67186b43dca6497c4a41dc96d791e4c9
 URL:		http://pear.php.net/package/uuid/
-BuildRequires:	e2fsprogs-devel
 BuildRequires:	libtool
+BuildRequires:	libuuid-devel
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
