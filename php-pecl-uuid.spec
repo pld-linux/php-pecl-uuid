@@ -1,5 +1,5 @@
 %define		_modname	uuid
-%define		_status		beta
+%define		_status		stable
 
 Summary:	%{_modname} - UUID support functions
 Summary(pl):	%{_modname} - funkcje obs³uguj±ce UUID
