@@ -1,14 +1,15 @@
 %define		_modname	uuid
 %define		_status		beta
+
 Summary:	%{_modname} - UUID support functions
 Summary(pl):	%{_modname} - funkcje obs³uguj±ce UUID
 Name:		php-pecl-%{_modname}
-Version:	0.9
+Version:	1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	67186b43dca6497c4a41dc96d791e4c9
+# Source0-md5:	83140b6acd662db86755b9474d25fc7c
 URL:		http://pecl.php.net/package/uuid/
 BuildRequires:	libtool
 BuildRequires:	libuuid-devel
