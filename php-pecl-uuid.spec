@@ -11,7 +11,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	83140b6acd662db86755b9474d25fc7c
 URL:		http://pecl.php.net/package/uuid/
-BuildRequires:	libtool
 BuildRequires:	libuuid-devel
 BuildRequires:	php-devel
 Requires:	php-common
