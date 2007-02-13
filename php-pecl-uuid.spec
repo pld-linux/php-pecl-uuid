@@ -1,7 +1,7 @@
 %define		_modname	uuid
 %define		_status		stable
 Summary:	%{_modname} - UUID support functions
-Summary(pl.UTF-8):   %{_modname} - funkcje obsługujące UUID
+Summary(pl.UTF-8):	%{_modname} - funkcje obsługujące UUID
 Name:		php-pecl-%{_modname}
 Version:	1.0
 Release:	6
