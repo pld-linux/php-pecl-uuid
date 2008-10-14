@@ -3,12 +3,12 @@
 Summary:	%{_modname} - UUID support functions
 Summary(pl.UTF-8):	%{_modname} - funkcje obsługujące UUID
 Name:		php-pecl-%{_modname}
-Version:	1.0
-Release:	6
+Version:	1.0.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	83140b6acd662db86755b9474d25fc7c
+# Source0-md5:	c45246bccdaf5e77934be47637627e7f
 URL:		http://pecl.php.net/package/uuid/
 BuildRequires:	libuuid-devel
 BuildRequires:	php-devel >= 3:5.0.0
