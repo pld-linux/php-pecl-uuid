@@ -5,17 +5,18 @@ Summary:	%{modname} - UUID support functions
 Summary(pl.UTF-8):	%{modname} - funkcje obsługujące UUID
 Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.3
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	236c3f2f5c5e9ce0aa2f024618c060a1
 URL:		http://pecl.php.net/package/uuid/
-BuildRequires:	libuuid-devel
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
+BuildRequires:	libuuid-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 Obsoletes:	php-pear-%{modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
