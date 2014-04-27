@@ -5,7 +5,7 @@ Summary:	%{modname} - UUID support functions
 Summary(pl.UTF-8):	%{modname} - funkcje obsługujące UUID
 Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.3
-Release:	4
+Release:	5
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
